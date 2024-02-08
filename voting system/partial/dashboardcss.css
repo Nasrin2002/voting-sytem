@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+    background-color:rgb(182, 126, 235);
+    position: relative;
+}
+.nav button{
+    width: 150px;
+    margin: 20px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: black;
+    font-size: 22px;
+    background-color: rgb(149, 57, 235);
+    align-items: right;
+}
+.nav button:hover{
+    color:white;
+    background-color: orangered;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 50px;
+}
+.container {
+    max-width: 100%; 
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+/* Box styling */
+.container .left {
+    width: 58%; 
+    height: 200px;
+    float: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-left: 50px;
+    box-shadow: 0px 15px 25px gray;
+    margin-bottom: 30px;
+    transition: 2s;
+}
+.container .left:hover{
+    width: 60%; 
+    height: 210px;
+}
+.container .left .img{
+    width: 40%; 
+    float: left;
+    height: 95%;
+    padding: 10px;
+    text-align:center;
+}
+
+.container .left .textcont{
+    width: 55%;
+    height: 100%; 
+    float: right;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 55px;
+}
+
+.container .right{
+    width: 30%; 
+    background-color: rgb(190, 147, 230);
+    float: right;
+    height: 450px;
+    left: 1200px;
+    bottom: 120px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-right: 60px;
+    box-shadow: 0px 15px 30px gray;
+    position: fixed;
+}
+.container .left .vtg{
+    color: white;
+    background-color:green ;
+    bottom: 100px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
+.container .left .vtr{
+    color: white;
+    background-color: red;
+    bottom: 100px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
+.container .left .vt:hover{
+    color:white;
+    background-color: orangered;
+}
